@@ -1,0 +1,72 @@
+URxvt.transparent: false
+!URxvt.shading: 30
+URxvt.background: black
+URxvt.foreground: #fafafa
+URxvt.buffered:             false
+URxvt*color0:  #000000 // black
+URxvt*color1:  #C91B00 // red
+URxvt*color2:  #00B100 // green
+URxvt*color3:  #C7C400 // yellow
+URxvt*color4:  #0E1F75 // blue
+URxvt*color5:  #C930C7 // magenta
+URxvt*color6:  #00C5C7 // cyan
+URxvt*color7:  #C7C7C7 // white
+URxvt*color8:  #676767 // black (now and below: bright)
+URxvt*color9:  #FF4F3B // red
+URxvt*color10: #00B700 // green
+URxvt*color11: #E4E144 // yellow
+URxvt*color12: #6870FF // blue
+URxvt*color13: #FF76FF // magenta
+URxvt*color14: #5FFDFF // cyan
+URxvt*color15: #F8F8F8 // white
+URxvt.cursorBlink:    false
+URxvt.cutchars:       `"()'*<>[]{|}"
+
+URxvt.font:          xft:Monaco:pixelsize=10:antialias=false
+
+URxvt.internalBorder:     6
+URxvt.borderLess:         false
+URxvt.jumpScroll:           false
+URxvt.loginShell:           true
+URxvt.mapAlert:             true
+URxvt.matcher.button:       1
+!URxvt.matcher.pattern.1:    \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+!URxvt.matcher.pattern.2:    \\B(/\\S+?):(\\d+)(?=:|$)
+URxvt.perl-ext:             default,url-select,matcher
+URxvt.perl-ext-common:      default,url-select,matcher
+URxvt.pointerBlank:         true
+URxvt.resource:             value
+URxvt.saveLines:            4000
+URxvt.scrollBar:            false
+URxvt.scrollstyle:          plain
+URxvt.scrollTtyKeypress:    true
+URxvt.scrollTtyOutput:      false
+URxvt.scrollWithBuffer:     false
+URxvt.secondaryScroll:      false
+URxvt.urgentOnBell:         true
+URxvt.url-launcher:         /bin/qutebrowser
+URxvt.xftAntialias:         true
+
+Xft.lcdfilter: lcddefault
+Xft.antialias: true
+Xft.autohint: 0
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+Xft.dpi: 96
+
+xterm*background:           black
+xterm*dynamicColors:        true
+xterm*eightBitInput:        true
+xterm*faceName:             Terminus:pixelsize=12
+xterm*foreground:           white
+xterm*geometry:             100x30
+xterm*jumpScroll:           true
+xterm*loginShell:           true
+xterm*multiScroll:          true
+xterm*saveLines:            32767
+xterm*scrollBar:            false
+xterm*scrollTtyKeypress:    true
+xterm*scrollTtyOutput:      false
+xterm*toolBar:              false
+xterm*utf8:                 2
